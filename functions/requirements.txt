@@ -1,0 +1,12 @@
+firebase_functions~=0.1.0
+google.ai.generativelanguage
+flask
+google.generativeai
+IPython
+google-api-python-client
+google-auth-httplib2 
+google-auth-oauthlib
+python-dotenv
+functions_framework
+markdown
+bs4

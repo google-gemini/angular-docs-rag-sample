@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "chatbot-demo-7e376"
+  },
+  "targets": {
+    "chatbot-demo-7e376": {
+      "hosting": {
+        "angular-chatbot": [
+          "chatbot-demo-7e376"
+        ]
+      }
+    }
+  }
+}
