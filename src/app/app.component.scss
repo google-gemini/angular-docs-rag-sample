@@ -1,0 +1,44 @@
+main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: inherit;
+}
+
+summary {
+  
+}
+
+details {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+details[open] > summary:first-of-type {
+  list-style-type: disclosure-open;
+}
+
+.angular-logo {
+  max-width: 9.2rem;
+}
+
+.fake {
+  position: fixed;
+  bottom: 10%;
+  height: 80%;
+  width: 80%;
+  background: color-mix(in srgb, var(--bright-blue) 20%, transparent);
+  align-content: center;
+  border-radius: 1rem;
+
+  h2 {
+    text-align: center;
+    color: var(--bright-blue);
+  }
+}

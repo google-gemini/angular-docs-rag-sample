@@ -1,0 +1,18 @@
+<div class="border content">
+  <div class="question-wrapper">
+    <input type="text" [(ngModel)]="question" (keydown.enter)="getAnswer()" placeholder="Ask me about topics related to Angular"/>
+    <button class="pill" (click)="getAnswer()">Submit</button>
+  </div>
+  <div class="pill-wrapper"> 
+    <!-- <button class="pill" (click)="getAnswer(this.followUpQuestions[0])">{{ this.followUpQuestions[0] }}</button>
+    <button class="pill" (click)="getAnswer(this.followUpQuestions[1])">{{ this.followUpQuestions[1] }}</button>
+    <button class="pill" (click)="getAnswer(this.followUpQuestions[2])">{{ this.followUpQuestions[2] }}</button> -->
+    @for (item of followUpQuestions; track item) {
+    <button class="pill" (click)="getAnswer(item)">{{ item }}</button>
+    }
+  </div>
+  <hr #start/>
+  <div class="answer border">
+    <p>Hi there! How can I help?</p>
+  </div>
+</div>
