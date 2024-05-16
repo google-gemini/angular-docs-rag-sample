@@ -2,6 +2,14 @@
 
 Developer sample written in Angular demonstrating how developers might ingest developer docs and make the content accessible to Gemini via RAG (Retrieval Augmented Generation). The ingested content is accessible in the sample through an Angular chatbot.
 
+<a href="https://idx.google.com/import?url=https://github.com/google-gemini/angular-docs-rag-sample">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_32@2x.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_32@2x.png">
+  <img height="32" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_32@2x.png">
+</picture>
+</a>
+
 https://github.com/googlestaging/angular-docs-rag-sample/assets/15061394/58e698d4-ced8-44d8-afab-487c6914b704
 
 This project was generated with [Angular CLI](https://github.com/angular/angular1.cli) and uses [DocsAgent](https://github.com/google/generative-ai-docs/tree/main/examples/gemini/python/docs-agent), to impliment RAG (Retrieval Augmented Generation) with Gemini and create a domain-specific expertise chatbot. This sample uses Googles Semantic Revtriever API and Generative Language APIs as well as an AQA (Attributed Questions and Answer) model with Gemini Pro.
