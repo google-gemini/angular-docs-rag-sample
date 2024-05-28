@@ -53,7 +53,10 @@ details[open] > summary:first-of-type {
   border-radius: 1rem;
 
   h2 {
-    text-align: center;
     color: var(--bright-blue);
+  }
+  
+  * {
+    text-align: center;
   }
 }
